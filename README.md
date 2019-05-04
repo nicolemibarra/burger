@@ -10,5 +10,6 @@
 1. The list on the right keeps track of what you've eaten.
 
       Click on image to view youtube video of how Eat Bob's Burger app works.
-      [![](http://.jpg)](http://www.youtube.com/watch?v=BFYvDpI4rDY "")
-*Friend-Finder uses Node, Express Servers, Javascript, API, HTML, JSON, Bootstrap, Jquery and Ajax.*
+      [![](https://github.com/nicolemibarra/burger/blob/master/public/assets/img/Eat%20Bob's%20Burger.jpg?raw=true)](https://www.youtube.com/watch?v=R6x3CPGewbM "")
+      
+*Eat Bob's Burgers uses Node, Express, Servers, Javascript, CSS, HTML, JSON, Bootstrap, Jquery and Ajax.*
