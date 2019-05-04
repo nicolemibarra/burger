@@ -12,4 +12,4 @@
       Click on image to view youtube video of how Eat Bob's Burger app works.
       [![](https://github.com/nicolemibarra/burger/blob/master/public/assets/img/Eat%20Bob's%20Burger.jpg?raw=true)](https://www.youtube.com/watch?v=R6x3CPGewbM "")
       
-*Eat Bob's Burgers uses Node, Express, Servers, Javascript, CSS, HTML, JSON, Bootstrap, Jquery and Ajax.*
+*Eat Bob's Burgers uses Node, Express, Handlebars, Heroku, Servers, MySQL, Javascript, CSS, JSON, Terminal, Bootstrap, Jquery and Ajax.*
