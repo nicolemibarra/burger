@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Eat Bob's Burger!</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/burger_style.css">
+  </head>
+
+  <body>
+    <div class="container-fluid">
+    <center>
+      <img src="/assets/img/burger.png" alt="Burger Png">
+    <div class="jumbotron">
+    <h1>Eat Bob's Burger!</h1>    
+    <p>Choose a Bob's Burger from the menu on the left. Then devour it by clicking on the green button. Make a custom Bob's Burger by entering it in the form below and clicking the red button. 
+    The list on the right keeps track of what you've eaten.</p>       
+    </center>
+
+    <!--Handlebars-->
+      {{{body}}}
+
+      <!--Custom Burger Form-->
+      <form action="burger/create" method="POST"> 
+          <div class="col-md-3"></div>
+    
+          <div class="form-group col-md-6">
+            <center><label for="new_burger" class="submitFont"></label></center>
+            <textarea class="form-control" type="text" columns="6" rows="2" id="new_burger required value="" name="burger_name"></textarea>
+          </div>
+         
+          <div class="col-md-3"></div> 
+        </div>
+      
+        <!--Make It Button-->
+        <center>
+          <button id="submit-button" type="submit" class="btn btn-danger">Make It!</button>
+        </center>
+      </form>
+      <br>
+    </div>
+  </body>
+</html> 
+
