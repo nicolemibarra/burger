@@ -1,6 +1,4 @@
-var express = require("express");
-var app = express();
-app.use(express.json());
+//Ports & Heroku
 var PORT = 8000;
 var mysql = require("mysql");
 var connection = mysql.createConnection({
@@ -10,11 +8,15 @@ var connection = mysql.createConnection({
     password: "64c3186b",
     database: "heroku_575e5ff7e5b39e9"
 });
+
+//Connection
 connection.connect(function(err) {
-    if (err) throw err;
-        console.log("Wha wha");
-        return
-    },
-    console.log("Nom nom!" 
-    + connection.threadId)
-)
+    if (err) {
+        console.error('error connecting: ' + err.stack);
+        return;
+    }
+    console.log('connected as id' + connection.threadId); 
+});
+
+//Export
+module.exports = connection;
